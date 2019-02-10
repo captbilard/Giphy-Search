@@ -1,21 +1,17 @@
 body{
     background-color: lightgray;
-    text-align: center;
+    /* text-align: center; */
 }
 
 
-.row > div {
+img {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.img-container {
     display: flex;
-    flex-wrap: wrap;
-    width: 300px;
-    height: 300px;
-    padding: 50px;
-    border: thin solid black;
-    margin: 50px;
-    border-radius: 2px;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
+    vertical-align: middle;
 }
 
 .input-group{
